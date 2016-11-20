@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgba(0,0,0,0.6);
   font-family: 'Lato', sans-serif;
@@ -19,15 +25,44 @@ body {
 }
 
 .main-heading {
-  color: rgb(111, 40, 144);
   text-align: center;
   padding: .1em;
   font-size: 1.5em;
   clear: both;
-  margin-top: 1.7em auto;
+  color: rgb(111, 40, 144);
+  margin-top: 1em auto;
 }
 
 .sub-head {
+  text-align: center;
   color: black;
+  font-size: 1em;
+}
+
+#rewards {
+  margin: 1em;
+}
+
+.all-rewards {
+  text-align: center;
+  display: inline-block;
+  float: left;
+  width: calc(100%/3);
+  padding: 5em;
+}
+
+.all-rewards p, .all-rewards h4 {
+  color: black;
+}
+
+.all-rewards h4 {
+  font-size: 1em;
+}
+
+.all-rewards p {
+  font-size: .9em;
+}
+
+.button {
   text-align: center;
 }
