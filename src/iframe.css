@@ -13,23 +13,23 @@ body {
   height: 26em;
   width: 32em;
   background-color: white;
-  margin: 9em auto;
+  margin: 9.5em auto;
 }
 
 .exit {
-  color: rgba(64, 64, 64, 0.84);
+  color: grey;
   text-align: right;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 1.7em;
+  font-weight: 1000;
   margin: .1em .3em;
 }
 
 .main-heading {
   text-align: center;
-  padding: .1em;
+  padding: .2em;
   font-size: 1.5em;
   clear: both;
-  color: rgb(111, 40, 144);
+  color: #4b0532;
   margin-top: 1em auto;
 }
 
@@ -51,6 +51,11 @@ body {
   padding: .5em;
 }
 
+.logo {
+  height: 7.5em;
+  width: 9.375em;
+}
+
 .all-rewards p, .all-rewards h4 {
   color: black;
 }
@@ -68,7 +73,7 @@ body {
 }
 
 .buttonOnClick button {
-  background-color: rgb(111, 40, 144);
+  background-color: #4b0532;
   color: white;
   text-align: center;
   font-size: 1em;
