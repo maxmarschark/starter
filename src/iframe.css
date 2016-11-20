@@ -48,7 +48,7 @@ body {
   display: inline-block;
   float: left;
   width: calc(100%/3);
-  padding: 5em;
+  padding: .5em;
 }
 
 .all-rewards p, .all-rewards h4 {
@@ -63,6 +63,28 @@ body {
   font-size: .9em;
 }
 
-.button {
+.buttonOnClick {
   text-align: center;
+}
+
+.buttonOnClick button {
+  background-color: rgb(111, 40, 144);
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  margin: .8em;
+  padding: .8em;
+  width: 20em;
+  border-style: none;
+  outline: none;
+}
+
+.buttonOnClick a {
+  display: block;
+  color: #747f80;
+}
+
+.arr {
+  font-weight: 800;
+  font-size: 1em;
 }
