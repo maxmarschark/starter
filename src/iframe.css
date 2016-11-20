@@ -1,3 +1,33 @@
 body {
   background-color: rgba(0,0,0,0.6);
+  font-family: 'Lato', sans-serif;
+}
+
+.modal {
+  height: 26em;
+  width: 32em;
+  background-color: white;
+  margin: 9em auto;
+}
+
+.exit {
+  color: rgba(64, 64, 64, 0.84);
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: .1em .3em;
+}
+
+.main-heading {
+  color: rgb(111, 40, 144);
+  text-align: center;
+  padding: .1em;
+  font-size: 1.5em;
+  clear: both;
+  margin-top: 1.7em auto;
+}
+
+.sub-head {
+  color: black;
+  text-align: center;
 }
